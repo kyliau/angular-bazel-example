@@ -40,12 +40,14 @@
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@bazel/ibazel/-/ibazel-0.5.0.tgz#76f269bd60d866e2aa9e86b25c456d18fee2ef54"
 
-"@bazel/typescript@0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-0.17.0.tgz#c99329fbb9c7422bee341669d990ae37a90745fd"
+"@bazel/typescript@0.19.1":
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-0.19.1.tgz#61dd57c0ab8a6c9930d2463d44e9522ec007fe3a"
   dependencies:
     protobufjs "5.0.0"
-    tsutils "2.20.0"
+    source-map-support "0.5.9"
+    tsickle "0.28.0"
+    tsutils "2.27.2"
 
 "@ngrx/store@6.1.0":
   version "6.1.0"
@@ -1373,7 +1375,7 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-source-map-support@^0.5.0:
+source-map-support@0.5.9, source-map-support@^0.5.0:
   version "0.5.9"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.9.tgz#41bc953b2534267ea2d605bccfa7bfa3111ced5f"
   dependencies:
@@ -1501,6 +1503,15 @@ tough-cookie@~2.3.3:
   dependencies:
     punycode "^1.4.1"
 
+tsickle@0.28.0:
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/tsickle/-/tsickle-0.28.0.tgz#6cd6fa004766c6ad9261b599c83866ee97cc7875"
+  dependencies:
+    minimist "^1.2.0"
+    mkdirp "^0.5.1"
+    source-map "^0.6.0"
+    source-map-support "^0.5.0"
+
 tsickle@^0.32.1:
   version "0.32.1"
   resolved "https://registry.yarnpkg.com/tsickle/-/tsickle-0.32.1.tgz#f16e94ba80b32fc9ebe320dc94fbc2ca7f3521a5"
@@ -1515,9 +1526,9 @@ tslib@1.9.3, tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
-tsutils@2.20.0:
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.20.0.tgz#303394064bc80be8ee04e10b8609ae852e9312d3"
+tsutils@2.27.2:
+  version "2.27.2"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.27.2.tgz#60ba88a23d6f785ec4b89c6e8179cac9b431f1c7"
   dependencies:
     tslib "^1.8.1"
 
